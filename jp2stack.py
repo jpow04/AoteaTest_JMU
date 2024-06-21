@@ -4,7 +4,7 @@ import os
 import re
 
 # Directory where the 10-meter .jp2 files are stored
-input_dir = r"C:\Users\mrmuf\Documents\Aotea_test_files\Sentinel_test\S2A_L2A.SAFE\GRANULE\L2A_DATA\IMG_DATA\R10m"
+input_dir = r"C:\Users\mrmuf\Documents\Aotea_test_files\Sentinel_test\S2A_MSIL2A_20191120T222551_N9999_R029_T60HUE_20240618T041659.SAFE\GRANULE\L2A_T60HUE_A023049_20191120T222545\IMG_DATA\R10m"
 output_dir = r"C:\Users\mrmuf\Documents\Aotea_test_files\Sentinel_test\S2A_stacked_10m"
 output_file = os.path.join(output_dir, "stacked_10m.tif")
 
